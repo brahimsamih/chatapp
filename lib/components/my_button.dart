@@ -11,7 +11,6 @@ class MyButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return GestureDetector(
       onTap: onTap,
       child: Container(
@@ -21,7 +20,7 @@ class MyButton extends StatelessWidget {
         padding: const EdgeInsets.all(25),
         margin: const EdgeInsetsDirectional.symmetric(horizontal: 25),
         child: Center(
-          child: Text("Button"),
+          child: Text(text),
         ),
       ),
     );
